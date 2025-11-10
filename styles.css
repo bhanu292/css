@@ -1,0 +1,38 @@
+body{
+    font-family:"poppins",sans-serif;
+    background: #f0f4f8;
+    margin: 0;
+    padding: 40px;
+    text-align: center;
+}
+
+.title{
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.member{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.member:hover{
+    transform: translateY(-5px);
+}
+
+.member h3{
+    color: #2980b9;
+    margin-bottom: 5px;
+}
